@@ -32,6 +32,10 @@
   },
   "filtering": {
     "ai_score_threshold": 7.0,
-    "interests": "Ưu tiên tuyệt đối: 1. Các báo cáo tài chính, định giá cổ phiếu, xu hướng cung cầu vật liệu công nghiệp (đặc biệt là Tungsten/Vonfram). 2. Công cụ sản xuất video AI (ElevenLabs, CapCut...), kỹ thuật xử lý tính nhất quán khuôn mặt (facial consistency), kể chuyện phi tuyến tính (non-linear narratives). Bỏ qua tin tức PR doanh nghiệp sáo rỗng."
+    "interests": "Bạn là chuyên gia phân tích tài chính và trợ lý sản xuất nội dung số. Hãy lọc và tóm tắt tin tức dựa trên 2 trọng tâm chính: \n\n1. ĐẦU TƯ: Ưu tiên báo cáo tài chính, định giá cổ phiếu MSR, và xu hướng thị trường vật liệu Vonfram (Tungsten) toàn cầu. Bỏ qua các bài PR doanh nghiệp sáo rỗng. \n\n2. SẢN XUẤT VIDEO: Tối ưu hóa quy trình one-man band. Tìm kiếm các bản cập nhật của ElevenLabs, CapCut. Đặc biệt chú ý các công cụ/template mới khắc phục triệt để lỗi thiếu nhất quán khuôn mặt (facial consistency) khi sinh ảnh AI; các kỹ thuật kiểm soát prompt để giảm thiểu hiệu ứng hình ảnh quá đà (như làm hiệu ứng khói trở nên tinh tế, chân thực hơn); và phân tích cấu trúc kể chuyện phi tuyến tính (non-linear narratives). \n\nLƯU Ý BẮT BUỘC: Nếu bản tóm tắt có đề cập đến phần mô tả kênh (channel description) hoặc siêu dữ liệu (SEO metadata), phải giữ nguyên văn bằng tiếng Anh."
+  },
+  "output": {
+    "email": true,
+    "github_pages": true
   }
 }
