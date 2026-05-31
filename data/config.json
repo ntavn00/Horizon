@@ -1,0 +1,37 @@
+{
+  "ai": {
+    "provider": "gemini",
+    "model": "gemini-1.5-flash",
+    "api_key_env": "GEMINI_API_KEY"
+  },
+  "sources": {
+    "rss": [
+      {
+        "name": "CafeF Chứng khoán",
+        "url": "https://cafef.vn/rss/chung-khoan.rss"
+      },
+      {
+        "name": "Vietstock",
+        "url": "https://vietstock.vn/rss/chung-khoan.rss"
+      },
+      {
+        "name": "Hacker News (AI/Tech)",
+        "url": "https://news.ycombinator.com/rss"
+      }
+    ],
+    "reddit": [
+      {
+        "name": "LocalLLaMA (AI Models)",
+        "url": "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+      },
+      {
+        "name": "Filmmakers",
+        "url": "https://www.reddit.com/r/filmmakers/top/.rss?t=day"
+      }
+    ]
+  },
+  "filtering": {
+    "ai_score_threshold": 7.0,
+    "interests": "Ưu tiên tuyệt đối: 1. Các báo cáo tài chính, định giá cổ phiếu, xu hướng cung cầu vật liệu công nghiệp (đặc biệt là Tungsten/Vonfram). 2. Công cụ sản xuất video AI (ElevenLabs, CapCut...), kỹ thuật xử lý tính nhất quán khuôn mặt (facial consistency), kể chuyện phi tuyến tính (non-linear narratives). Bỏ qua tin tức PR doanh nghiệp sáo rỗng."
+  }
+}
